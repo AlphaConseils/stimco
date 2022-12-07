@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="report_invoice_inherit" inherit_id="account.report_invoice_document">
+
+        <xpath expr="//div[@name='address_not_same_as_shipping']/t[@t-set='address']" position="inside">
+            <div style="width:100%;" t-if="o.partner_id.company_type == 'company'">
+                <div>
+                    <div>
+                        NIF:
+                        <span t-esc="o.partner_id.nif" />
+                    </div>
+                    <div>
+                        STAT:
+                        <span t-esc="o.partner_id.stat" />
+                    </div>
+                    <div>
+                        RCS:
+                        <span t-esc="o.partner_id.rcs" />
+                    </div>
+                </div>
+            </div>
+        </xpath>
+        <xpath expr="//div[@name='address_same_as_shipping']/t[@t-set='address']" position="inside">
+            <div style="width:100%;" t-if="o.partner_id.company_type == 'company'">
+                <div>
+                    <div>
+                        NIF:
+                        <span t-esc="o.partner_id.nif" />
+                    </div>
+                    <div>
+                        STAT:
+                        <span t-esc="o.partner_id.stat" />
+                    </div>
+                    <div>
+                        RCS:
+                        <span t-esc="o.partner_id.rcs" />
+                    </div>
+                </div>
+            </div>
+        </xpath>
+        <xpath expr="//div[@name='no_shipping']/t[@t-set='address']" position="inside">
+            <div style="width:100%;" t-if="o.partner_id.company_type == 'company'">
+                <div>
+                    <div>
+                        NIF:
+                        <span t-esc="o.partner_id.nif" />
+                    </div>
+                    <div>
+                        STAT:
+                        <span t-esc="o.partner_id.stat" />
+                    </div>
+                    <div>
+                        RCS:
+                        <span t-esc="o.partner_id.rcs" />
+                    </div>
+                </div>
+            </div>
+        </xpath>
+
+    </template>
+</odoo>
