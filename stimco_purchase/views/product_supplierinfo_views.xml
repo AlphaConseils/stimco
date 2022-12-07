@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <record id="product_supplier_inherit_stimco_purchase" model="ir.ui.view">
+        <field name="name">product.supplier.inherit.stimco.purchase</field>
+        <field name="model">product.supplierinfo</field>
+        <field name="inherit_id" ref="purchase.product_supplierinfo_tree_view2"/>
+        <field name="arch" type="xml">
+            <field name="product_code" position="after">
+                <field name="brand" optional="hide"/>
+            </field>
+        </field>
+    </record>
+</odoo>
