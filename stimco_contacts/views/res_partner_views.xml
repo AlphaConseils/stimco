@@ -11,6 +11,9 @@
                 <field name="stat" string="STAT" attrs="{'invisible': [('company_type', '!=', 'company')]}"/>
                 <field name="rcs" string="RCS" attrs="{'invisible': [('company_type', '!=', 'company')]}"/>
             </field>
+            <field name="vat" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
         </field>
     </record>
 </odoo>
