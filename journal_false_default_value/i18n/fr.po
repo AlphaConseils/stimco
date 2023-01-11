@@ -1,0 +1,45 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* journal_false_default_value
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e-20221215\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-11 08:37+0000\n"
+"PO-Revision-Date: 2023-01-11 08:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: journal_false_default_value
+#: model:ir.model.fields,field_description:journal_false_default_value.field_account_bank_statement_line__journal_id
+#: model:ir.model.fields,field_description:journal_false_default_value.field_account_move__journal_id
+#: model:ir.model.fields,field_description:journal_false_default_value.field_account_payment__journal_id
+msgid "Journal"
+msgstr ""
+
+#. module: journal_false_default_value
+#: model:ir.model,name:journal_false_default_value.model_account_move
+msgid "Journal Entry"
+msgstr "Pièce comptable"
+
+#. module: journal_false_default_value
+#: model:ir.model,name:journal_false_default_value.model_account_move_line
+msgid "Journal Item"
+msgstr "Écriture comptable"
+
+#. module: journal_false_default_value
+#. odoo-python
+#: code:addons/journal_false_default_value/models/account_move.py:0
+#, python-format
+msgid "Please set currency first!"
+msgstr "Veuillez ajouter une devise!"
+
+#. module: journal_false_default_value
+#: model:ir.model,name:journal_false_default_value.model_sale_order
+msgid "Sales Order"
+msgstr "Bon de commande"
