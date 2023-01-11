@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.actions.server" id="action_view_account_move_view">
+        <field name="name">Send To Draft</field>
+        <field name="model_id" ref="account.model_account_move" />
+        <field name="binding_model_id" ref="account.model_account_move" />
+        <field name="state">code</field>
+        <field name="groups_id" eval="[(4,ref('account.group_account_user'))]" />
+        <field name="code">
+if records:
+    action = records.action_ssend_to_draft()
+        </field>
+    </record>
+
+    <!-- <record id="model_account_send_to_draft" model="ir.actions.server">
+        <field
+    name="name">Send to draft</field>
+        <field name="model_id"
+    ref="account.model_account_move"/>
+        <field name="binding_model_id"
+    ref="account.model_account_move"/>
+        <field name="binding_view_types">list</field>
+        <field
+    name="state">code</field>
+        <field name="code">
+            if False:
+    records.filtered(lambda rec: rec.show_reset_to_draft_button).button_draft()
+        </field>
+    </record> -->
+    <!-- <record id="model_account_send_to_draft" model="ir.actions.server">
+        <field
+    name="name">Send to draft</field>
+        <field name="model_id"
+    ref="account.model_account_move"/>
+        <field name="binding_model_id"
+    ref="account.model_account_move"/>
+        <field name="binding_view_types">list</field>
+        <field
+    name="state">code</field>
+        <field name="code">
+            if
+    any(rec.show_reset_to_draft_btn is False for rec in records):
+                raise
+    UserError("This action is only possible for invoices")
+            else:
+                action
+    = records.button_draft()
+        </field>
+    </record> -->
+</odoo>

@@ -1,0 +1,461 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stimco_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e-20221215\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-11 08:58+0000\n"
+"PO-Revision-Date: 2023-01-11 08:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "1) PREAMBULE"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "10) GARANTIES"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"10.1)\n"
+"                    Défectuosités ouvrant droit à la garantie STIMCO s'engage à remédier à tout vice\n"
+"                    de fonctionnement provenant d'un défaut dans la conception, les matières ou\n"
+"                    l'exécution dans la limite des dispositions ci-après.<br/> L'obligation de\n"
+"                    STIMCO ne s'applique pas pour les remplacements ou les réparations qui,\n"
+"                    résulteraient de :"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"10.2) Durée et point de départ de\n"
+"                    la garantie <br/>Pour les produits bénéficiant d'une garantie constructeur, les\n"
+"                    délais et termes de garantie reprennent celui du fabricant. La période de\n"
+"                    garantie court du jour de la livraison ou de l'enlèvement par le Client en nos\n"
+"                    entrepôts. Les fournitures remplacées ou réparées sont garanties pour la durée\n"
+"                    restant à courir.<br/> 10.3) Obligations du Client<br/> Pour pouvoir invoquer\n"
+"                    le bénéfice de ces dispositions, le Client doit"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"10.4)\n"
+"                    Modalités d'exercice de la garantie<br/> Il appartient à STIMCO ainsi avisée de\n"
+"                    remédier au vice en se réservant la possibilité de modifier, si besoin, les\n"
+"                    fournitures. Toutes autres prestations regardant la mise en œuvre de la garantie\n"
+"                    (montage, démontage, expédition, retour…) sont à la charge du Client."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "11) RESPONSABILITES"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "12) RETOUR DE PRODUITS"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "13) LOI APPLICABLE"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "13) TRIBUNAL COMPETENT"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "2) DEFINITION"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "2) GENERALITES"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "2) LIVRAISONS"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "2) OBJET"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"4.1) Les prix s'entendent en Ariary, hors taxes, départ dépôt.\n"
+"                        4.2) Le tarif général édité par STIMCO constitue la base de négociation\n"
+"                        commerciale. Des remises sur ce tarif peuvent être appliquées au Client au\n"
+"                        regard de sa position et de sa valeur ajoutée dans le circuit de\n"
+"                        distribution, ainsi que de son potentiel d'achat, et ceci dans un respect\n"
+"                        strict des règles de non-discrimination.\n"
+"                        4.3) Sauf stipulation contraire et écrite de STIMCO, les prix sont valables\n"
+"                        pour une période d'un mois à compter de leur date de communication au\n"
+"                        Client.\n"
+"                        4.4) Le contrat, même en cas de devis ou d'offre préalable, n'est parfait\n"
+"                        que sous réserve d'acceptation par STIMCO de la commande du Client. Pour les\n"
+"                        fournitures et prestations additionnelles, les prix et nouveaux délais sont\n"
+"                        discutés spécialement entre STIMCO et le Client. En aucun cas, les\n"
+"                        conditions pour les fournitures et prestations additionnelles ne peuvent\n"
+"                        préjudicier à celles de la commande principale. Les obligations\n"
+"                        contractuelles s'analysent au regard des conditions convenues entre les\n"
+"                        parties et non au regard de la destination finale de la fourniture.\n"
+"                        4.5) Les devis élaborés par STIMCO dans le cadre d'offres « système »,\n"
+"                        notamment lorsqu'il s'agit de proposer les matériels nécessaires à la\n"
+"                        distribution d'électricité sont établis au regard des informations\n"
+"                        techniques communiquées par le Client. La responsabilité de STIMCO ne\n"
+"                        saurait être engagée si, par suite d'inexactitude ou d'imprécision des\n"
+"                        éléments fournis par le Client, le matériel proposé s'avérait inadéquat. Il\n"
+"                        appartient au Client de vérifier avec soin que le matériel proposé\n"
+"                        correspond effectivement en quantité et en qualité à son besoin avant de\n"
+"                        passer commande. Pour tout retour de matériel non endommagé résultant d'une\n"
+"                        mauvaise observation de ces règles et sauf accord écrit spécifique, la\n"
+"                        facturation dudit matériel sera maintenue et un avoir d'un montant de 80 %\n"
+"                        de la facture initiale sera établi. Les frais de port pour le retour des\n"
+"                        marchandises restent à la charge du Client."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"5.1) Le franco de port correspondant à une livraison à Antananarivo ou à\n"
+"                        Tamatave est accordé pour toute commande supérieure à 3 000 000Ar Net HT.\n"
+"                        Toute instruction du Client nécessitant l'utilisation de moyens de\n"
+"                        transports spécifiques tels que express, livraison sur rendez-vous pourra\n"
+"                        entraîner la facturation de frais supplémentaires.\n"
+"                        5.2) A la réception des marchandises, il appartient au destinataire de :\n"
+"                        - vérifier le bon état et faire le cas échéant des réserves circonstanciées\n"
+"                        auprès du transporteur.\n"
+"                        - contrôler la quantité des produits reçus, conformément au Bon de\n"
+"                        Livraison.\n"
+"                        En cas de problème constaté en qualité ou quantité, le destinataire devra\n"
+"                        avertir STIMCO par écrit dans les 48 heures.\n"
+"                        5.3) La mise à disposition dans nos entrepôts est assimilée à l'expédition\n"
+"                        effective, notamment au point de vie des modalités et délais de paiement."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "6) CONDITIONS DE PAIEMENT"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "7) PENALITES"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"8) RESERVE DE PROPRIETE ET TRANSFERT\n"
+"                        DE RISQUE"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"8.1) Le transfert de propriété des produits STIMCO est suspendu jusqu'à\n"
+"                        complet paiement du prix de ceux-ci par le Client, en principal et\n"
+"                        accessoires même en cas d'octroi de délais de paiement. Toute clause\n"
+"                        contraire, notamment insérée dans les conditions générales d'achat, est\n"
+"                        réputée non écrite, conformément au Code de commerce.<br/> 8.2) De\n"
+"                        convention expresse, STIMCO pourra faire jouer les droits qu'elle détient au\n"
+"                        titre de la présente clause de réserve de propriété, pour l'une quelconque\n"
+"                        de ses créances, sur la totalité de ses produits en possession du Client,\n"
+"                        ces derniers état conventionnellement présumés être ceux impayés, et STIMCO\n"
+"                        pourra les reprendre ou les revendiquer en dédommagement de toutes ses\n"
+"                        factures impayées, sans préjudice de son droit de résolution des ventes en\n"
+"                        cours.<br/> 8.3) Le Client ne pourra revendre ses produits non payés que\n"
+"                        dans le cadre de l'exploitation normale de son entreprise, et ne peut en\n"
+"                        aucun cas nantir ou consentir de sûreté sur ses stocks impayés. En cas de\n"
+"                        défaut de paiement, le Client s'interdira de revendre ses stocks à\n"
+"                        concurrence de la quantité des produits impayés."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"8.4) En cas d'ouverture d'une procédure de redressement judiciaire ou de\n"
+"                        liquidation des biens, les commandes en cours seront automatiquement\n"
+"                        annulées, et STIMCO se réserve le droit de revendiquer les marchandises en\n"
+"                        stock.<br/> 8.5) La présente clause n'empêche pas que les risques des\n"
+"                        marchandises soient transférés à l'acheteur dès leur livraison à celui-ci.<br/>\n"
+"                        8.6) A compter de la livraison, l'acheteur est constitué dépositaire et\n"
+"                        gardien desdites marchandises. Dans le cas de non-paiement et à moins que\n"
+"                        STIMCO ne préfère demander l'exécution pleine et entière de la vente, STIMCO\n"
+"                        se réserve le droit de résilier la vente après mise en demeure et de\n"
+"                        revendiquer la marchandise livrée, les frais de retour restant à la charge\n"
+"                        de l'acheteur et les versements restant acquis à STIMCO à titre de clause\n"
+"                        pénale."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"9) VENTES D'INSTALLATIONS\n"
+"                        SPECIFIQUES"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"A défaut d'accord amiable ou de méditation, il est de convention expresse que\n"
+"                        tout litige relatif au contrat sera de la compétence exclusive du tribunal\n"
+"                        de commerce d'Antananarivo."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"Au sens du présent document, on entend par installation spécifique tout\n"
+"                        équipement\n"
+"                        dont les spécifications techniques sont définies spécialement par STIMCO\n"
+"                        pour\n"
+"                        répondre à une demande spécifique d'un client. Il incombe au client de\n"
+"                        communiquer à\n"
+"                        STIMCO tout élément relatif à son activité, son site ou tout autre élément\n"
+"                        lui\n"
+"                        étant\n"
+"                        spécifique susceptible d'avoir une incidence sur le fonctionnement,\n"
+"                        l'installation\n"
+"                        ou le niveau de performance des fournitures avant que STIMCO n'émette son\n"
+"                        offre\n"
+"                        commerciale. A cet égard, il appartient au client de contrôler et de valider\n"
+"                        que\n"
+"                        tous les paramètres pertinents ont bien été pris en compte par STIMCO eu\n"
+"                        égard à\n"
+"                        l'application qu'il entend faire du produit vendu. En cas d'absence de\n"
+"                        remarque\n"
+"                        ou\n"
+"                        en cas de commande, le client sera réputé avoir contrôlé et validé ces\n"
+"                        paramètres, y\n"
+"                        compris au niveau de leur exhaustivité. Les seules obligations de STIMCO\n"
+"                        sont\n"
+"                        celles\n"
+"                        qui découlent des paramètres qui ont été expressément acceptés lors de la\n"
+"                        commande,\n"
+"                        en fonction des informations portées à la connaissance de STIMCO à ce\n"
+"                        moment-là.\n"
+"                        Toute modification unilatérale du client est inopposable et ne pourra pas\n"
+"                        engager la\n"
+"                        responsabilité de STIMCO."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_invoice_inherit
+msgid "Client"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"Conditions\n"
+"            de Vente STIMCO"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"Conformément à la loi en vigueur, les présentes conditions générales\n"
+"                        s'appliquent\n"
+"                        à toute commande passée à la société STIMCO SARL dénommée ci-après STIMCO.\n"
+"                        Elles\n"
+"                        peuvent être adaptées, dans le cadre de conditions particulières de vente,\n"
+"                        lorsque les spécificités de la transaction le justifient. Toute commande\n"
+"                        passée\n"
+"                        à STIMCO emporte acceptation par le Client des présentes conditions\n"
+"                        générales de\n"
+"                        vente et renonciation de sa part à ses propres conditions d'achat."
+msgstr ""
+
+#. module: stimco_account
+#: model:ir.model,name:stimco_account.model_account_move
+msgid "Journal Entry"
+msgstr "Pièce comptable"
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"L7.1) Des pénalités contractuelles (retard de livraison, de performance…)\n"
+"                        peuvent être convenues entre les parties. Dans ce cas, elles sont plafonnées\n"
+"                        au maximum à 5% du montant HT de la fourniture et/ou des prestations\n"
+"                        retardées. Ces pénalités sont libératoires.<br/> 7.2) Tout retard de\n"
+"                        paiement donne également droit à des pénalités. Leur montant est fixé à\n"
+"                        trois fois le taux d'intérêt légal à la date de paiement figurant sur la\n"
+"                        facture, soit avec un taux d'intérêt moyen de 1% mensuel pour 2022 une\n"
+"                        pénalité de 3% par mois de retard. En outre, en cas de constatation de\n"
+"                        retards de paiement, STIMCO se réserve le droit de suspendre ou d'annuler\n"
+"                        l'exécution des contrats - cadres et commandes en cours et d'exiger le\n"
+"                        paiement comptant avant expédition de toute nouvelle fourniture, quelles que\n"
+"                        soient les conditions de paiement antérieurement convenues."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"La commande détermine les conditions de paiement. En l'absence de disposition\n"
+"                        spécifique, le délai de règlement des sommes dues est fixé à 30 jours\n"
+"                        suivant la date de facturation. La facture mentionne la date à laquelle le\n"
+"                        paiement doit intervenir ainsi que le taux des pénalités exigibles le jour\n"
+"                        suivant la date de règlement inscrite sur la facture. Toute inexécution par\n"
+"                        le client, totale ou partielle,"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"La responsabilité de STIMCO est limitée, toutes causes confondues, à une\n"
+"                        somme plafonnée au montant HT du contrat ou de la commande en cas de contrat\n"
+"                        - cadre. Cette imitation n'est pas applicable en cas de faute lourde et/ou\n"
+"                        de dommages corporels. STIMCO est tenue de réparer les dommages matériels\n"
+"                        directs causés au Client qui résulteraient de fautes imputables à STIMCO.<br/>\n"
+"                        STIMCO et le Client renoncent mutuellement à se prévaloir des dommages\n"
+"                        immatériels et/ou indirects tels que notamment : les pertes d'exploitations,\n"
+"                        de profit, le préjudice commercial…<br/> Toutes les pénalités et indemnités\n"
+"                        qui sont prévues au contrat ont la nature de dommages et intérêts\n"
+"                        forfaitaires, libératoires et exclusifs de toute autre sanction ou\n"
+"                        indemnisation. En cas d'évènement dommageable, les parties s'engagent à\n"
+"                        limiter autant que possible les conséquences dudit évènement."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"Le Client : toute personne physique ou morale passe commande à STIMCO dans le\n"
+"                        but d'utiliser le matériel ou le revendre."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"Le Client devra préalablement à tout retour de marchandise obtenir l'accord\n"
+"                        de STIMCO."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "Le droit applicable est le droit malgache."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"Les présentes conditions générales s'appliquent à l'ensemble des fournitures\n"
+"                        et prestations offertes par STIMCO."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_invoice_inherit
+msgid "NIF:"
+msgstr ""
+
+#. module: stimco_account
+#. odoo-python
+#: code:addons/stimco_account/models/account_move.py:0
+#, python-format
+msgid "One of the invoices is already in draft state."
+msgstr "Une des factures sélectionnées est déjà en état brouillon."
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_invoice_inherit
+msgid "RCS:"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_invoice_inherit
+msgid "STAT:"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_invoice_inherit
+msgid "STIMCO"
+msgstr ""
+
+#. module: stimco_account
+#: model:ir.actions.server,name:stimco_account.action_view_account_move_view
+msgid "Send To Draft"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"aviser STIMCO, sans retard et par écrit, des vices qu'il impute au\n"
+"                    matériel et fournir toutes justifications."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"d'accidents provenant de négligence, défaut d'installation, de\n"
+"                    surveillance ou d'entretien et d'utilisation anormale ou non conforme aux\n"
+"                    prescriptions."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"de conceptions imposées ou d'informations erronées transmises par le\n"
+"                    Client."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "de conditions inadéquates de stockage."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"de modifications ou réparations effectuées par le Client sans\n"
+"                            l'accord de\n"
+"                            STIMCO."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"de ses obligations de paiement ou tout retard, entraînera sans\n"
+"                    préjudice de tous dommages et intérêts, le versement d'une indemnité forfaitaire\n"
+"                    pour frais de recouvrement de 200 000 MGA."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"donner à STIMCO toute facilité pour procéder à la constatation de\n"
+"                            ces\n"
+"                            vices et pour y porter remède,"
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid "l'usure normale ou la détérioration des produits."
+msgstr ""
+
+#. module: stimco_account
+#: model_terms:ir.ui.view,arch_db:stimco_account.report_sale_conditions
+msgid ""
+"s'abstenir, sauf accord exprès de STIMCO, d'effectuer lui-même ou de\n"
+"                    faire\n"
+"                            effectuer par un tiers la réparation ou de modifier par un tiers\n"
+"                            tout\n"
+"                            élément dudit matériel."
+msgstr ""

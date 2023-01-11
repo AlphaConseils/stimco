@@ -16,6 +16,7 @@ You could use this simplified accounting in case you work with an (external) acc
     'website': 'https://www.nexources.com/',
     'depends' : ['stimco_contacts', 'account'],
     'data': [
+        'data/actions_server.xml',
         'report/invoice_report_document.xml'
     ],
     'demo': [
