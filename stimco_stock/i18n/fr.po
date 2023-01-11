@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: stimco_stock
-#: model:ir.actions.report,print_report_name:stimco_stock.action_report_delivery
+#: model:ir.actions.report,print_report_name:stimco_stock.action_stimco_report_delivery
 msgid ""
 "'Transfer voucher - %s - %s' % (object.partner_id.name or '',\n"
 "            object.name)"
