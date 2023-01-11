@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0+e-20221215\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-10 12:31+0000\n"
-"PO-Revision-Date: 2023-01-10 12:31+0000\n"
+"POT-Creation-Date: 2023-01-11 12:51+0000\n"
+"PO-Revision-Date: 2023-01-11 12:51+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,18 +26,42 @@ msgstr ""
 
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
+msgid "<small><i>+ Reçu conforme (na Voaray ara-dalàna)</i></small>"
+msgstr "<i>+ Reçu conforme (na Voaray ara-dalàna)</i>"
+
+#. module: stimco_stock
+#: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
 msgid "Client"
 msgstr ""
 
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
-msgid "Delivery person"
-msgstr "Livreur"
+msgid "Comments"
+msgstr "Observations"
+
+#. module: stimco_stock
+#: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
+msgid ""
+"Deposit :<br/> Received by :<br/> Departure time :<br/>\n"
+"                        Arriving time :<br/>"
+msgstr ""
+"Dépôt :<br/> Reçu par :<br/> Heure de départ :<br/>\n"
+"                        Heure d'arrivée :<br/>"
 
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
 msgid "Driver"
 msgstr "Chaufeur"
+
+#. module: stimco_stock
+#: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
+msgid "Entrust by :"
+msgstr "Chargée par:"
+
+#. module: stimco_stock
+#: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
+msgid "Signature"
+msgstr ""
 
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
@@ -51,5 +75,9 @@ msgstr "Bon de transfert"
 
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
-msgid "Comments"
-msgstr "Observations"
+msgid ""
+"Truck N° :<br/> Delivered by :<br/> Departure time :<br/>\n"
+"                        Arriving time :<br/>"
+msgstr ""
+"N° Camion :<br/> Livrée par :<br/> Heure de départ :<br/>\n"
+"                        Heure d'arrivée :<br/>"

@@ -4,11 +4,43 @@
     <template id="report_delivery_document" inherit_id="stock.report_delivery_document">
         <xpath expr="//div[@t-if='o.signature']" position="after">
             <div class="row mt-3">
-                <p class="col-2">Storekeeper</p>
-                <p class="col-3 text-center">Delivery person</p>
-                <p class="col-2 text-center">Driver</p>
-                <p class="col-3 text-center">Client</p>
-                <p class="col-2 text-right">Comments</p>
+                <div class="col-3" style="border: 1px solid black; height: 300px">
+                    <h6 style="border-bottom: 1px solid black" class="text-center">
+                        Storekeeper
+                    </h6>
+                    <p style="margin-bottom: 25px">Entrust by :</p>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <p style="text-decoration: underline;" class="text-center">Signature</p>
+                </div>
+                <div class="col-4" style="margin-left:5px; border: 1px solid black">
+                    <h6 style="border-bottom: 1px solid black" class="text-center">
+                        Driver
+                    </h6>
+                    <p class="text-left"> Truck N° :<br /> Delivered by :<br /> Departure time :<br />
+                        Arriving time :<br />
+                    </p>
+                    <p style="text-decoration: underline;" class="text-center">Signature</p>
+
+                </div>
+                <div class="col-3" style="margin-left:5px; border: 1px solid black">
+                    <h6 style="border-bottom: 1px solid black" class="text-center">
+                        Client</h6>
+                    <p class="text-left"> Deposit :<br /> Received by :<br /> Departure time :<br />
+                        Arriving time :<br />
+                    </p>
+                    <p style="text-decoration: underline;margin-bottom:0" class="text-center">Signature</p>
+                    <p style="margin-top:0; font-size: 12px" class="text-center"><small><i>+ Reçu conforme (na Voaray ara-dalàna)</i></small></p>
+
+
+                </div>
+                <div class="col-2" style="margin-left: 5px; border: 1px solid black">
+                    <h6 style="border-bottom: 1px solid black" class="text-center">
+                        Comments</h6>
+
+                </div>
             </div>
         </xpath>
     </template>
