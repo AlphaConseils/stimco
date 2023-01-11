@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0+e-20221215\n"
+"Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-11 12:51+0000\n"
-"PO-Revision-Date: 2023-01-11 12:51+0000\n"
+"POT-Creation-Date: 2023-01-11 13:46+0000\n"
+"PO-Revision-Date: 2023-01-11 13:46+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -37,7 +37,7 @@ msgstr ""
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
 msgid "Comments"
-msgstr "Observations"
+msgstr "Observation"
 
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
@@ -51,7 +51,7 @@ msgstr ""
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
 msgid "Driver"
-msgstr "Chaufeur"
+msgstr "Livreur"
 
 #. module: stimco_stock
 #: model_terms:ir.ui.view,arch_db:stimco_stock.report_delivery_document
@@ -69,7 +69,7 @@ msgid "Storekeeper"
 msgstr "Magasinier"
 
 #. module: stimco_stock
-#: model:ir.actions.report,name:stimco_stock.action_report_delivery
+#: model:ir.actions.report,name:stimco_stock.action_stimco_report_delivery
 msgid "Transfer voucher"
 msgstr "Bon de transfert"
 

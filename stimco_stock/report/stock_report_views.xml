@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <odoo>
-    <record id="action_report_delivery" model="ir.actions.report">
+    <record id="action_stimco_report_delivery" model="ir.actions.report">
         <field name="name">Transfer voucher</field>
         <field name="model">stock.picking</field>
         <field name="report_type">qweb-pdf</field>
