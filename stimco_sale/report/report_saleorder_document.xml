@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <template id="report_sale_conditions">
+        <style>
+            .text-justify{
+            text-align: justify;
+            font-size: 10px;
+    
+            }
+            h1.text-center.h3{
+            font-size: 15px
+            }
+            .pl-2.h5{
+            font-size: 11px;
+            margin-bottom: 0px;
+            }
+        </style>
+        <h1 class="text-center h3"
+            style="font-size: 15px; border: 1px solid black; padding: 5px; width: 45%; margin: auto">Conditions
+            de Vente STIMCO</h1>
+        <div class="row" style="margin-top: 5px">
+            <div class="col-6" style="margin-right: 4px">
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">1) PREAMBULE</h2>
+                    <p>Conformément à la loi en vigueur, les présentes conditions générales
+                        s'appliquent
+                        à toute commande passée à la société STIMCO SARL dénommée ci-après STIMCO.
+                        Elles
+                        peuvent être adaptées, dans le cadre de conditions particulières de vente,
+                        lorsque les spécificités de la transaction le justifient. Toute commande
+                        passée
+                        à STIMCO emporte acceptation par le Client des présentes conditions
+                        générales de
+                        vente et renonciation de sa part à ses propres conditions d'achat.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">2) OBJET</h2>
+                    <p>Les présentes conditions générales s'appliquent à l'ensemble des fournitures
+                        et prestations offertes par STIMCO.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">2) DEFINITION</h2>
+                    <p>Le Client : toute personne physique ou morale passe commande à STIMCO dans le
+                        but d'utiliser le matériel ou le revendre.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">2) GENERALITES</h2>
+                    <p>
+                        4.1) Les prix s'entendent en Ariary, hors taxes, départ dépôt.
+                        4.2) Le tarif général édité par STIMCO constitue la base de négociation
+                        commerciale. Des remises sur ce tarif peuvent être appliquées au Client au
+                        regard de sa position et de sa valeur ajoutée dans le circuit de
+                        distribution, ainsi que de son potentiel d'achat, et ceci dans un respect
+                        strict des règles de non-discrimination.
+                        4.3) Sauf stipulation contraire et écrite de STIMCO, les prix sont valables
+                        pour une période d'un mois à compter de leur date de communication au
+                        Client.
+                        4.4) Le contrat, même en cas de devis ou d'offre préalable, n'est parfait
+                        que sous réserve d'acceptation par STIMCO de la commande du Client. Pour les
+                        fournitures et prestations additionnelles, les prix et nouveaux délais sont
+                        discutés spécialement entre STIMCO et le Client. En aucun cas, les
+                        conditions pour les fournitures et prestations additionnelles ne peuvent
+                        préjudicier à celles de la commande principale. Les obligations
+                        contractuelles s'analysent au regard des conditions convenues entre les
+                        parties et non au regard de la destination finale de la fourniture.
+                        4.5) Les devis élaborés par STIMCO dans le cadre d'offres « système »,
+                        notamment lorsqu'il s'agit de proposer les matériels nécessaires à la
+                        distribution d'électricité sont établis au regard des informations
+                        techniques communiquées par le Client. La responsabilité de STIMCO ne
+                        saurait être engagée si, par suite d'inexactitude ou d'imprécision des
+                        éléments fournis par le Client, le matériel proposé s'avérait inadéquat. Il
+                        appartient au Client de vérifier avec soin que le matériel proposé
+                        correspond effectivement en quantité et en qualité à son besoin avant de
+                        passer commande. Pour tout retour de matériel non endommagé résultant d'une
+                        mauvaise observation de ces règles et sauf accord écrit spécifique, la
+                        facturation dudit matériel sera maintenue et un avoir d'un montant de 80 %
+                        de la facture initiale sera établi. Les frais de port pour le retour des
+                        marchandises restent à la charge du Client.
+                    </p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">2) LIVRAISONS</h2>
+                    <p>5.1) Le franco de port correspondant à une livraison à Antananarivo ou à
+                        Tamatave est accordé pour toute commande supérieure à 3 000 000Ar Net HT.
+                        Toute instruction du Client nécessitant l'utilisation de moyens de
+                        transports spécifiques tels que express, livraison sur rendez-vous pourra
+                        entraîner la facturation de frais supplémentaires.
+                        5.2) A la réception des marchandises, il appartient au destinataire de :
+                        - vérifier le bon état et faire le cas échéant des réserves circonstanciées
+                        auprès du transporteur.
+                        - contrôler la quantité des produits reçus, conformément au Bon de
+                        Livraison.
+                        En cas de problème constaté en qualité ou quantité, le destinataire devra
+                        avertir STIMCO par écrit dans les 48 heures.
+                        5.3) La mise à disposition dans nos entrepôts est assimilée à l'expédition
+                        effective, notamment au point de vie des modalités et délais de paiement.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">6) CONDITIONS DE PAIEMENT</h2>
+                    <p>La commande détermine les conditions de paiement. En l'absence de disposition
+                        spécifique, le délai de règlement des sommes dues est fixé à 30 jours
+                        suivant la date de facturation. La facture mentionne la date à laquelle le
+                        paiement doit intervenir ainsi que le taux des pénalités exigibles le jour
+                        suivant la date de règlement inscrite sur la facture. Toute inexécution par
+                        le client, totale ou partielle,</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <p class="text-justify">de ses obligations de paiement ou tout retard, entraînera sans
+                    préjudice de tous dommages et intérêts, le versement d'une indemnité forfaitaire
+                    pour frais de recouvrement de 200 000 MGA. </p>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">7) PENALITES</h2>
+                    <p>L7.1) Des pénalités contractuelles (retard de livraison, de performance…)
+                        peuvent être convenues entre les parties. Dans ce cas, elles sont plafonnées
+                        au maximum à 5% du montant HT de la fourniture et/ou des prestations
+                        retardées. Ces pénalités sont libératoires.<br /> 7.2) Tout retard de
+                        paiement donne également droit à des pénalités. Leur montant est fixé à
+                        trois fois le taux d'intérêt légal à la date de paiement figurant sur la
+                        facture, soit avec un taux d'intérêt moyen de 1% mensuel pour 2022 une
+                        pénalité de 3% par mois de retard. En outre, en cas de constatation de
+                        retards de paiement, STIMCO se réserve le droit de suspendre ou d'annuler
+                        l'exécution des contrats - cadres et commandes en cours et d'exiger le
+                        paiement comptant avant expédition de toute nouvelle fourniture, quelles que
+                        soient les conditions de paiement antérieurement convenues.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">8) RESERVE DE PROPRIETE ET TRANSFERT
+                        DE RISQUE</h2>
+                    <p>8.1) Le transfert de propriété des produits STIMCO est suspendu jusqu'à
+                        complet paiement du prix de ceux-ci par le Client, en principal et
+                        accessoires même en cas d'octroi de délais de paiement. Toute clause
+                        contraire, notamment insérée dans les conditions générales d'achat, est
+                        réputée non écrite, conformément au Code de commerce.<br /> 8.2) De
+                        convention expresse, STIMCO pourra faire jouer les droits qu'elle détient au
+                        titre de la présente clause de réserve de propriété, pour l'une quelconque
+                        de ses créances, sur la totalité de ses produits en possession du Client,
+                        ces derniers état conventionnellement présumés être ceux impayés, et STIMCO
+                        pourra les reprendre ou les revendiquer en dédommagement de toutes ses
+                        factures impayées, sans préjudice de son droit de résolution des ventes en
+                        cours.<br /> 8.3) Le Client ne pourra revendre ses produits non payés que
+                        dans le cadre de l'exploitation normale de son entreprise, et ne peut en
+                        aucun cas nantir ou consentir de sûreté sur ses stocks impayés. En cas de
+                        défaut de paiement, le Client s'interdira de revendre ses stocks à
+                        concurrence de la quantité des produits impayés.</p>
+                </div>
+                <div class="text-justify">
+                    <p>8.4) En cas d'ouverture d'une procédure de redressement judiciaire ou de
+                        liquidation des biens, les commandes en cours seront automatiquement
+                        annulées, et STIMCO se réserve le droit de revendiquer les marchandises en
+                        stock.<br /> 8.5) La présente clause n'empêche pas que les risques des
+                        marchandises soient transférés à l'acheteur dès leur livraison à celui-ci.<br />
+                        8.6) A compter de la livraison, l'acheteur est constitué dépositaire et
+                        gardien desdites marchandises. Dans le cas de non-paiement et à moins que
+                        STIMCO ne préfère demander l'exécution pleine et entière de la vente, STIMCO
+                        se réserve le droit de résilier la vente après mise en demeure et de
+                        revendiquer la marchandise livrée, les frais de retour restant à la charge
+                        de l'acheteur et les versements restant acquis à STIMCO à titre de clause
+                        pénale.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">9) VENTES D'INSTALLATIONS
+                        SPECIFIQUES</h2>
+                    <p>Au sens du présent document, on entend par installation spécifique tout
+                        équipement
+                        dont les spécifications techniques sont définies spécialement par STIMCO
+                        pour
+                        répondre à une demande spécifique d'un client. Il incombe au client de
+                        communiquer à
+                        STIMCO tout élément relatif à son activité, son site ou tout autre élément
+                        lui
+                        étant
+                        spécifique susceptible d'avoir une incidence sur le fonctionnement,
+                        l'installation
+                        ou le niveau de performance des fournitures avant que STIMCO n'émette son
+                        offre
+                        commerciale. A cet égard, il appartient au client de contrôler et de valider
+                        que
+                        tous les paramètres pertinents ont bien été pris en compte par STIMCO eu
+                        égard à
+                        l'application qu'il entend faire du produit vendu. En cas d'absence de
+                        remarque
+                        ou
+                        en cas de commande, le client sera réputé avoir contrôlé et validé ces
+                        paramètres, y
+                        compris au niveau de leur exhaustivité. Les seules obligations de STIMCO
+                        sont
+                        celles
+                        qui découlent des paramètres qui ont été expressément acceptés lors de la
+                        commande,
+                        en fonction des informations portées à la connaissance de STIMCO à ce
+                        moment-là.
+                        Toute modification unilatérale du client est inopposable et ne pourra pas
+                        engager la
+                        responsabilité de STIMCO.</p>
+                </div>
+            </div>
+        </div>
+        <div style="page-break-after: always" />
+    
+        <div class="row">
+            <div class="col-6">
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">10) GARANTIES</h2>
+                    <p>10.1) Défectuosités ouvrant droit à la garantie STIMCO s'engage à remédier à
+                        tout vice de fonctionnement provenant d'un défaut dans la conception, les
+                        matières ou l'exécution dans la limite des dispositions ci-après.<br />
+                        L'obligation de STIMCO ne s'applique pas pour les remplacements ou les
+                        réparations qui, résulteraient de : </p>
+                    <ul type="square">
+                        <li>
+                            l'usure normale ou la détérioration des produits.
+                        </li>
+                        <li>d'accidents provenant de négligence, défaut d'installation, de
+                            surveillance ou d'entretien et d'utilisation anormale ou non conforme
+                            aux
+                            prescriptions.</li>
+                        <li>de conditions inadéquates de stockage.</li>
+                        <li>de conceptions imposées ou d'informations erronées transmises par le
+                            Client.</li>
+                        <li>de modifications ou réparations effectuées par le Client sans
+                            l'accord de
+                            STIMCO.</li>
+                    </ul>
+                    <p>10.2) Durée et point de départ de la garantie <br />Pour les produits
+                        bénéficiant d'une garantie constructeur, les délais et termes de garantie
+                        reprennent celui du fabricant. La période de garantie court du jour de la
+                        livraison ou de l'enlèvement par le Client en nos entrepôts. Les fournitures
+                        remplacées ou réparées sont garanties pour la durée restant à courir.<br />
+                        10.3) Obligations du Client<br /> Pour pouvoir invoquer le bénéfice de ces
+                        dispositions, le Client doit </p>
+                    <ul type="square">
+                        <li>aviser STIMCO, sans retard et par écrit, des vices qu'il impute au
+                            matériel et fournir toutes justifications.</li>
+                        <li>
+                            donner à STIMCO toute facilité pour procéder à la constatation de
+                            ces
+                            vices et pour y porter remède,
+                        </li>
+                        <li>
+                            s'abstenir, sauf accord exprès de STIMCO, d'effectuer lui-même ou de
+                            faire
+                            effectuer par un tiers la réparation ou de modifier par un tiers
+                            tout
+                            élément dudit matériel.
+                        </li>
+                    </ul>
+                    <p>10.4) Modalités d'exercice de la garantie<br /> Il appartient à STIMCO ainsi
+                        avisée de remédier au vice en se réservant la possibilité de modifier, si
+                        besoin, les fournitures. Toutes autres prestations regardant la mise en
+                        œuvre de la garantie (montage, démontage, expédition, retour…) sont à la
+                        charge du Client.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">11) RESPONSABILITES</h2>
+                    <p>La responsabilité de STIMCO est limitée, toutes causes confondues, à une
+                        somme plafonnée au montant HT du contrat ou de la commande en cas de contrat
+                        - cadre. Cette imitation n'est pas applicable en cas de faute lourde et/ou
+                        de dommages corporels. STIMCO est tenue de réparer les dommages matériels
+                        directs causés au Client qui résulteraient de fautes imputables à STIMCO.<br />
+                        STIMCO et le Client renoncent mutuellement à se prévaloir des dommages
+                        immatériels et/ou indirects tels que notamment : les pertes d'exploitations,
+                        de profit, le préjudice commercial…<br /> Toutes les pénalités et indemnités
+                        qui sont prévues au contrat ont la nature de dommages et intérêts
+                        forfaitaires, libératoires et exclusifs de toute autre sanction ou
+                        indemnisation. En cas d'évènement dommageable, les parties s'engagent à
+                        limiter autant que possible les conséquences dudit évènement.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">12) RETOUR DE PRODUITS</h2>
+                    <p>Le Client devra préalablement à tout retour de marchandise obtenir l'accord
+                        de STIMCO.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">13) TRIBUNAL COMPETENT</h2>
+                    <p>A défaut d'accord amiable ou de méditation, il est de convention expresse que
+                        tout litige relatif au contrat sera de la compétence exclusive du tribunal
+                        de commerce d'Antananarivo.</p>
+                </div>
+                <div class="text-justify">
+                    <h2 class="pl-2 h5" style="font-size: 11px">13) LOI APPLICABLE</h2>
+                    <p>Le droit applicable est le droit malgache.</p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="stimco_report_saleorder_document" inherit_id="sale.report_saleorder_document">
+        <xpath expr="//div[hasclass('page')]/div[4]" position="after">
+            <div style="page-break-after: always"/>
+            <t t-call="stimco_sale.report_sale_conditions"/>
+        </xpath>
+    </template>
+</odoo>
