@@ -1,47 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <odoo>
+    <template id="stimco_signature">
+        <div class="row mt-3">
+            <div class="col-3" style="border: 1px solid black; height: 300px">
+                <h6 style="border-bottom: 1px solid black" class="text-center">
+                    Storekeeper
+                </h6>
+                <p style="margin-bottom: 25px">Entrust by :</p>
+                <br />
+                <br />
+                <br />
+                <br />
+                <p style="text-decoration: underline;" class="text-center">Signature</p>
+            </div>
+            <div class="col-4" style="margin-left:5px; border: 1px solid black">
+                <h6 style="border-bottom: 1px solid black" class="text-center">
+                    Driver
+                </h6>
+                <p class="text-left"> Truck N° :<br /> Delivered by :<br /> Departure time :<br />
+                    Arriving time :<br />
+                </p>
+                <p style="text-decoration: underline;" class="text-center">Signature</p>
+
+            </div>
+            <div class="col-3" style="margin-left:5px; border: 1px solid black">
+                <h6 style="border-bottom: 1px solid black" class="text-center">
+                    Client</h6>
+                <p class="text-left"> Deposit :<br /> Received by :<br /> Departure time :<br />
+                    Arriving time :<br />
+                </p>
+                <p style="text-decoration: underline;margin-bottom:0" class="text-center">Signature</p>
+                <p style="margin-top:0; font-size: 12px" class="text-center">
+                    <small>
+                        <i>+ Reçu conforme (na Voaray ara-dalàna)</i>
+                    </small>
+                </p>
+
+
+            </div>
+            <div class="col-2" style="margin-left: 5px; border: 1px solid black">
+                <h6 style="border-bottom: 1px solid black" class="text-center">
+                    Comments</h6>
+
+            </div>
+        </div>
+    </template>
     <template id="report_delivery_document" inherit_id="stock.report_delivery_document">
         <xpath expr="//div[@t-if='o.signature']" position="after">
-            <div class="row mt-3">
-                <div class="col-3" style="border: 1px solid black; height: 300px">
-                    <h6 style="border-bottom: 1px solid black" class="text-center">
-                        Storekeeper
-                    </h6>
-                    <p style="margin-bottom: 25px">Entrust by :</p>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <p style="text-decoration: underline;" class="text-center">Signature</p>
-                </div>
-                <div class="col-4" style="margin-left:5px; border: 1px solid black">
-                    <h6 style="border-bottom: 1px solid black" class="text-center">
-                        Driver
-                    </h6>
-                    <p class="text-left"> Truck N° :<br /> Delivered by :<br /> Departure time :<br />
-                        Arriving time :<br />
-                    </p>
-                    <p style="text-decoration: underline;" class="text-center">Signature</p>
-
-                </div>
-                <div class="col-3" style="margin-left:5px; border: 1px solid black">
-                    <h6 style="border-bottom: 1px solid black" class="text-center">
-                        Client</h6>
-                    <p class="text-left"> Deposit :<br /> Received by :<br /> Departure time :<br />
-                        Arriving time :<br />
-                    </p>
-                    <p style="text-decoration: underline;margin-bottom:0" class="text-center">Signature</p>
-                    <p style="margin-top:0; font-size: 12px" class="text-center"><small><i>+ Reçu conforme (na Voaray ara-dalàna)</i></small></p>
-
-
-                </div>
-                <div class="col-2" style="margin-left: 5px; border: 1px solid black">
-                    <h6 style="border-bottom: 1px solid black" class="text-center">
-                        Comments</h6>
-
-                </div>
-            </div>
+            <t t-call="stimco_stock.stimco_signature" />
         </xpath>
+    </template>
+
+    <template id="stimco_report_deliveryslip">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="stock.report_delivery_document" t-lang="o.partner_id.lang"/>
+        </t>
     </template>
 </odoo>

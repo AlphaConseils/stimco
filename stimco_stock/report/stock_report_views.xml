@@ -5,8 +5,8 @@
         <field name="name">Transfer voucher</field>
         <field name="model">stock.picking</field>
         <field name="report_type">qweb-pdf</field>
-        <field name="report_name">stock.report_deliveryslip</field>
-        <field name="report_file">stock.report_deliveryslip</field>
+        <field name="report_name">stimco_stock.stimco_report_deliveryslip</field>
+        <field name="report_file">stimco_stock.stimco_report_deliveryslip</field>
         <field name="print_report_name">'Transfer voucher - %s - %s' % (object.partner_id.name or '',
             object.name)</field>
         <field name="binding_model_id" ref="stock.model_stock_picking" />
