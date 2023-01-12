@@ -288,7 +288,7 @@
     </template>
 
     <template id="stimco_report_saleorder_document" inherit_id="sale.report_saleorder_document">
-        <xpath expr="//div[hasclass('page')]/div[4]" position="after">
+        <xpath expr="//div[hasclass('page')]" position="inside">
             <div style="page-break-after: always"/>
             <t t-call="stimco_sale.report_sale_conditions"/>
         </xpath>
