@@ -16,6 +16,7 @@
             margin-bottom: 0px;
             }
         </style>
+        <div style="height: 50px"/>
         <h1 class="text-center h3"
             style="font-size: 15px; border: 1px solid black; padding: 5px; width: 45%; margin: auto">Conditions
             de Vente STIMCO</h1>
@@ -103,13 +104,12 @@
                         suivant la date de facturation. La facture mentionne la date à laquelle le
                         paiement doit intervenir ainsi que le taux des pénalités exigibles le jour
                         suivant la date de règlement inscrite sur la facture. Toute inexécution par
-                        le client, totale ou partielle,</p>
+                        le client, totale ou partielle, de ses obligations de paiement ou tout retard, entraînera sans
+                        préjudice de tous dommages et intérêts, le versement d'une indemnité forfaitaire
+                        pour frais de recouvrement de 200 000 MGA.</p>
                 </div>
             </div>
             <div class="col-6">
-                <p class="text-justify">de ses obligations de paiement ou tout retard, entraînera sans
-                    préjudice de tous dommages et intérêts, le versement d'une indemnité forfaitaire
-                    pour frais de recouvrement de 200 000 MGA. </p>
                 <div class="text-justify">
                     <h2 class="pl-2 h5" style="font-size: 11px">7) PENALITES</h2>
                     <p>L7.1) Des pénalités contractuelles (retard de livraison, de performance…)
@@ -198,6 +198,7 @@
             </div>
         </div>
         <div style="page-break-after: always" />
+        <div style="height: 50px"/>
     
         <div class="row">
             <div class="col-6">
