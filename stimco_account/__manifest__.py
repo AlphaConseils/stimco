@@ -14,7 +14,7 @@ You could use this simplified accounting in case you work with an (external) acc
     """,
     'category': 'Accounting/Accounting',
     'website': 'https://www.nexources.com/',
-    'depends' : ['stimco_contacts', 'account'],
+    'depends' : ['stimco_contacts', 'stimco_sale', 'account'],
     'data': [
         'data/actions_server.xml',
         'report/invoice_report_document.xml'
