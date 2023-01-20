@@ -38,4 +38,4 @@ msgstr "Date de délivrance"
 #. module: stimco_hr
 #: model:ir.model.fields,field_description:stimco_hr.field_hr_employee__issue_place
 msgid "Issue Place"
-msgstr "Place de délivrance"
+msgstr "Lieu de délivrance"
