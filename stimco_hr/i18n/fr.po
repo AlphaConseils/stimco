@@ -33,7 +33,7 @@ msgstr "Employé"
 #. module: stimco_hr
 #: model:ir.model.fields,field_description:stimco_hr.field_hr_employee__issue_date
 msgid "Issue Date"
-msgstr "Lieu de délivrance"
+msgstr "Date de délivrance"
 
 #. module: stimco_hr
 #: model:ir.model.fields,field_description:stimco_hr.field_hr_employee__issue_place

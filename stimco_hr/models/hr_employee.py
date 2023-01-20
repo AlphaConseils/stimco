@@ -7,5 +7,5 @@ class HrEmployee(models.Model):
 
     cnaps_number = fields.Char()
     cin_number = fields.Char()
-    issue_date = fields.Char()
+    issue_date = fields.Date()
     issue_place = fields.Char()
