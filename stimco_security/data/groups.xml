@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <record id="partner_create_write_group" model="res.groups">
+        <field name="name">Création/Modification Contact</field>
+    </record>
+    <record id="product_create_write_group" model="res.groups">
+        <field name="name">Création/Modification Article</field>
+    </record>
+</odoo>
