@@ -15,7 +15,8 @@ class ResPartner(models.Model):
         return super(ResPartner, self).create(vals)
 
     def write(self, vals):
-        self.check_create_write_access_right()
+        if not ("tz" in vals and len(vals) == 1):
+            self.check_create_write_access_right()
         return super(ResPartner, self).write(vals)
 
     @api.model
